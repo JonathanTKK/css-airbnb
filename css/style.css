@@ -7,6 +7,10 @@ body {
               color: #484848;
               font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
               text-align: center;
+              margin-left: auto;
+              margin-right: auto;
+              max-width: 1300px;
+              min-width: 1200px;
               }
 
 h1.head, h1.head2 {
@@ -19,13 +23,17 @@ p.head, p.head2 {
 
 .r1 {
       border: 1px dashed red;
-      margin: auto;
+      /*max-width: 1200px;
+      margin: 0 auto;*/
     }
 
 .city {
-        display:inline-block;
-        margin-left: 140px;
-        margin-right: 140px;
+        /*display:inline-block;*/
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1300px;
+        min-width: 1200px;
+        text-align: center;
         }
 
 .cityLabel1 {
@@ -78,15 +86,15 @@ button {
       }
 
 .buttPos {
-          width: 845px;
+          max-width: 1300px;
+          min-width: 1200px;
           height: 70px;
-          position: relative;
+          margin: auto;
 }
 
 .button{
-        position: absolute;
-        right: 0;
-        bottom: 0;
+        margin: auto;
+        width: 300px;
 }
 
 
@@ -105,9 +113,10 @@ button {
     }
 
 .city2 {
-        display:inline-block;
-        margin-left: 140px;
-        margin-right: 140px;
+        margin: 0 auto;
+        text-align: center;
+        max-width: 1300px;
+        min-width: 1200px;
         }
 
 #np,#snm,#sf2 {
@@ -150,13 +159,14 @@ button {
     }
 
     .buttPos2 {
-              width: 845px;
+              max-width: 1300px;
+              min-width: 1200px;
               height: 70px;
               position: relative;
+              margin:0 auto;
     }
 
     .button2{
-            position: absolute;
-            right: 0;
-            bottom: 0;
+            margin: auto;
+            width: 300px;
     }
