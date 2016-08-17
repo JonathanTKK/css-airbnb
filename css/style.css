@@ -22,9 +22,7 @@ p.head, p.head2 {
               }
 
 .r1 {
-      border: 1px dashed red;
-      /*max-width: 1200px;
-      margin: 0 auto;*/
+      /*border: 1px dashed red;*/
     }
 
 .city {
@@ -108,8 +106,7 @@ button {
     }
 
 .r2 {
-      border: 1px dashed red;
-      margin: auto;
+      /*border: 1px dashed red;*/
     }
 
 .city2 {
